@@ -31,7 +31,7 @@ function Footer() {
 			</div>
 			<div>
 				<a
-					href="https://twitter.com/tanyaleepr"
+					href="https://instagram.com/tanyalee_dev"
 					target="_blank"
 					rel="noopener noreferrer"
 				>

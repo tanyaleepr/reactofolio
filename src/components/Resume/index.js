@@ -6,12 +6,12 @@ function Resume() {
 			<div className="center">
 				<h1 className="page-header">My Resume</h1>
 			</div>
-			<div className="bottom-spacing">
+			<div className="bottom-spacing center">
 				<a href={require("../../assets/files/gonzalezt_tr.docx.pdf")} download>
 					<h4>Download my Resume</h4>
 				</a>
 			</div>
-			<div>
+			<div className="center">
 				<h5>Front-End Proficiencies</h5>
 				<ol>
 					<li>HTML5</li>
@@ -20,9 +20,8 @@ function Resume() {
 					<li>jQuery</li>
 					<li>Bootstrap</li>
 					<li>React</li>
-					
 				</ol>
-				<br></br>
+				
 				<h5>Back-End Proficiencies</h5>
 				<ol>
 					<li>APIs</li>
@@ -32,7 +31,7 @@ function Resume() {
 					<li>REST</li>
 					<li>Progressive Web Applications (PWA)</li>
 				</ol>
-				<br></br>
+				
 				<h5>Dev Tool Proficiencies</h5>
 				<ol>
 					<li>Git</li>
@@ -40,7 +39,7 @@ function Resume() {
 					<li>Jest</li>
 					<li>Webpack</li>
 				</ol>
-				<br></br>
+				
 				<h5>Database Proficiencies</h5>
 				<ol>
 					<li>MySQL</li>
