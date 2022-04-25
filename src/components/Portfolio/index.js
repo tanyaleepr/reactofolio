@@ -92,9 +92,6 @@ function Portfolio() {
 					<li className="padding">
 						<Project projects={projects[4]}></Project>
 					</li>
-					<li className="padding">
-						<Project projects={projects[5]}></Project>
-					</li>
 				</ul>
 			</div>
 		</section>
