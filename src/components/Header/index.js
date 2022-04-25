@@ -10,10 +10,10 @@ function Header(props) {
 				<h2>Tanya's React Portfolio</h2>
 			</div>
 			<div>
-				<nav
+				<Nav
 					currentTab={currentTab}
 					setCurrentTab={setCurrentTab}
-				></nav>
+				></Nav>
 			</div>
 		</header>
 	);
