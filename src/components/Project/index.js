@@ -3,7 +3,6 @@ import Card from "react-bootstrap/Card";
 
 function Project(props) {
 
-
 	return (
 		<Card style={{ width: "18rem" }}>
 						
@@ -18,11 +17,11 @@ function Project(props) {
 					<Card.Title className="card-title">{props.projects.name}</Card.Title>
 					<Card.Text className="card-text">{props.projects.description}</Card.Text>
 					<Card.Subtitle className="card-subtitle">{props.projects.technologies} </Card.Subtitle>
-					<Card.Link href={props.projects.appLink} target="_blank" className="card-link">
-						{props.projects.name} App
+					<Card.Link href={props.projects.deployed} target="_blank" className="card-link">
+						{props.projects.name} Link
 					</Card.Link>
 					<br></br>
-					<Card.Link href={props.projects.gitLink} target="_blank" className="card-link">
+					<Card.Link href={props.projects.github} target="_blank" className="card-link">
 						{props.projects.Linkname} Github
 					</Card.Link>
 				</Card.Body>
