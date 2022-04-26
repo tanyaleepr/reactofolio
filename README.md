@@ -4,6 +4,9 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+![react_portfolio](https://user-images.githubusercontent.com/92898110/165363328-69e35f16-c367-4916-9a97-7499bd6d0532.png)
+
+
 ## Description
 
 This project showcases my personal projects while experimenting in creating this portfolio using React.
