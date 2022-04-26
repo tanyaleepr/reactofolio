@@ -1,5 +1,7 @@
+//Reference the Project.js to pull each JS file.
 import React from 'react';
 import Project from '../Project';
+
 
 function Portfolio() {
 	const projects = [
@@ -7,9 +9,9 @@ function Portfolio() {
 			name: 'Access Tennessee',
 			description:
 				'Access Tennessee is an app that strives to make this state more accommodating and accessible to all people.',
-			image: 'accesstn.png',
+			image: 'at.jpeg',
 			technologies: [
-				'HTML/CSS',
+				'HTML/CSS', 
 				'JavaScript',
 				'Node.js',
 				'Express & MySQL',
@@ -50,7 +52,7 @@ function Portfolio() {
 			name: 'Weather Dashboard',
 			description:
 				'A weather dashboard that shows current weather and five-day weather forecast for different cities.',
-			image: 'weatherdashboard.png',
+			image: 'weatherdashboard.jpeg',
 			technologies: ['HTML/CSS', 'JavaScript', 'APIs'],
 			github: 'https://github.com/tanyaleepr/weather-dashboard',
 			deployed: 'https://tanyaleepr.github.io/weather-dashboard/',
